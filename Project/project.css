@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(231, 222, 222);
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    border-radius: 10px;
+}
+.header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 2px;
+    float: right;
+}
+.header nav ul{
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+.header nav a{
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+}
+.header nav a:hover{
+    border-bottom: 1px solid white;
+}
+
+/* done with the head section*/
+
+h1{
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.html, .js, .css, .Canvas{
+    background-color: blue;
+    padding: 20px;
+    height: 300px;
+    width: 350px;
+}
+.html p, .js p, .css p, .Canvas p{
+    margin-top: 60px;
+    font-size: 20px;
+    color: white;
+}
+.html1, .css1{
+    margin-left: 60px;
+    color: white;
+    font-style: italic;
+}
+.html2, .css2{
+    text-decoration: none;
+    color: orange;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: underline;
+}
